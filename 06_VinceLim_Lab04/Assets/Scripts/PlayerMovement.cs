@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (coinsToCollect <= 0)
         {
-                SceneManager.LoadScene("GamePlay_Level2");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
 
